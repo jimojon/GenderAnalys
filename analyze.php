@@ -20,25 +20,25 @@
 // CONFIG
 //////////////////////////////////////////////
 
+// mysql
 $mysql_server = '127.0.0.1';
 $mysql_user = 'root';
 $mysql_pass = '';
 $mysql_db = 'firstname';
 
-// Database to define
-$mysql_target_table = 'firstname_test'; // The table to analyze
-$mysql_target_firstname_field = 'firstname'; // The firstname field
-$mysql_target_gender_field = 'gender'; // The result field
-
-// Database of firstnames
-$mysql_list_table = 'firstname_list'; // The list of firstname
-$mysql_list_firstname_field = 'firstname'; // The result field
-$mysql_list_gender_field = 'gender'; // The firstname field
-
-
+// 
 $callInterval = '3'; // 3 secs between each call
 $callMaxCheck = 100;
-$callNum;
+
+// Database to define
+$mysql_target_table = 'firstname_test'; // Change here The table to analyze
+$mysql_target_firstname_field = 'firstname'; // Change here the firstname field
+$mysql_target_gender_field = 'gender'; // Change here the result field
+
+// Database of firstnames
+$mysql_list_table = 'firstname_list';
+$mysql_list_firstname_field = 'firstname'; 
+$mysql_list_gender_field = 'gender';
 
 
 //////////////////////////////////////////////
